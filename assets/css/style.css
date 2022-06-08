@@ -14,7 +14,7 @@ html {
     text-shadow: 0 0 2px black;
     background-image: url("img/fundo.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100vw 100vh;
     animation: colors 5s ease infinite;
     color: #fff;
     text-align: center;
