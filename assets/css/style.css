@@ -16,6 +16,7 @@ html {
     text-shadow: 0 0 2px black;
     max-height: 1600px;
     background-image: url("img/fundo.jpg");
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     animation: colors 5s ease infinite;
     color: #fff;
