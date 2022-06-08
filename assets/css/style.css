@@ -5,6 +5,8 @@
 html {
     max-height: 1600px;
     max-width: 1900px;
+    min-width: 375px;
+    min-height: 667px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -92,8 +94,22 @@ button:hover {
     cursor: pointer;
 }
 
-@media (max-width: 360px) {
-    .form {
-        width: 100%;
+@media all and (max-width: 375px) {
+    #container {
+        width: auto;
+        height: auto;
+        padding-top: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 4400px) {
+    #container {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
