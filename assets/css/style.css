@@ -3,10 +3,6 @@
 }
 
 html {
-    max-height: 1600px;
-    max-width: 1900px;
-    min-width: 375px;
-    min-height: 667px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -16,7 +12,6 @@ html {
 .body {
     -webkit-text-stroke: .5px black;
     text-shadow: 0 0 2px black;
-    max-height: 1600px;
     background-image: url("img/fundo.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -97,19 +92,34 @@ button:hover {
 @media all and (max-width: 375px) {
     #container {
         width: auto;
-        height: auto;
-        padding-top: 25%;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 }
 
-@media all and (min-width: 375px) and (max-width: 4400px) {
+@media all and (min-width: 375px) and (max-width: 500px) {
     #container {
         width: auto;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    #border {
+        height: 80vh;
+    }
+}
+
+@media all and (max-height: 800px) {
+    #container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #border {
+        height: 100vh;
     }
 }
