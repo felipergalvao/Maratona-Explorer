@@ -51,6 +51,19 @@ img {
     box-shadow: rgba(255, 255, 255, 0.3) 10px 15px 30rem 4px;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+    padding: 1vh 0 1.5vh 0;
+}
+
+#resposta {
+    margin-top: 30px;
+    transition: opacity 1s;
+}
+
+#resposta div {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -102,14 +115,14 @@ button:hover {
 
 @media all and (min-width: 375px) and (max-width: 500px) {
     #container {
-        width: auto;
+        width: 80vw;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     #border {
-        height: 80vh;
+        height: 65vh;
     }
 }
 
@@ -121,6 +134,16 @@ button:hover {
         justify-content: center;
     }
     #border {
-        height: 100vh;
+        height: 85vh;
+    }
+    #img {
+        width: 20%;
+        height: 30%;
+    }
+    h1 {
+        margin: 5px 0 2px 0;
+    }
+    p {
+        margin-bottom: 5px;
     }
 }
