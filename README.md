@@ -20,5 +20,5 @@
 
 <h2>Links</h2>
 <ul>
- <li><a href="https://felipergalvao.github.io/maratona-explorer">Site hospedado</a></li>
+ <li><a href="https://felipergalvao.github.io/Maratona-Explorer">Site hospedado</a></li>
 <ul>
